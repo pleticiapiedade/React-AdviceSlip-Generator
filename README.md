@@ -2,7 +2,7 @@
 
 Olá, me chamo Letícia Piedade, sou uma dev frontend. \
 Esse projeto foi desenvolvido para um processo seletivo, ele consiste em consumir a API adviceSlip e mostrar conselhos ao usuario, conforme o usuario interage com a interface por meio de cliques os conselhos vão se aleatorizando dinamicamente. \
-Foi ultilizado o ReactJS para a criação da aplicação, junto com react hooks e styled components.
+Foi ultilizado o ReactJS para a criação da aplicação, junto com react hooks, react router e styled components.
 
 ## Como visualizar
 
