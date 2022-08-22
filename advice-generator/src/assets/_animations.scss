@@ -1,0 +1,15 @@
+@keyframes glowupboy {
+  0% {
+    filter: saturate(1) brightness(1);
+    transform: scale(1);
+  }
+  50% {
+    filter: saturate(1.02) brightness(1.05);
+    transform: scale(1.1);
+  }
+  100% {
+    filter: saturate(1) brightness(1);
+    transform: scale(1);
+  }
+}
+

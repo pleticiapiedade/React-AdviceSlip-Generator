@@ -1,15 +1,10 @@
 import React from "react";
-import { Routes, Route, Outlet } from "react-router-dom";
 
-import Intro from "./components/Intro";
-import Advice from "./components/Advice";
+import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
   return (
-    <Routes>
-      <Route exact path="/" element={<Intro />} />
-      <Route path="/advice" element={<Advice />} />
-    </Routes>
+   <AnimatedRoutes/>
   );
 }
 

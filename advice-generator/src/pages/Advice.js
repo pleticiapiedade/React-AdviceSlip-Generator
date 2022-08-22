@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
+
 import LuckyButton from "../assets/images/cookie.svg";
 
 const AdviceWrapper = styled.div`
@@ -35,6 +37,7 @@ const AdviceWrapper = styled.div`
     background-color: #1c2541;
     width: 98%;
     height: 1px;
+    opacity: .5;
   }
 
   button {
@@ -100,17 +103,24 @@ function Advice() {
   }, []);
 
   return (
-    <AdviceWrapper>
-      <span className="advice-title">Advice # {text.id}</span>
-      <div className="advice-text">
-        <p>" {text.advice} "</p>
-      </div>
-      <div className="spacement"></div>
+    <motion.div
+      initial={{ opacity: 0}}
+      animate={{ opacity: 1}}
+      exit={{ opacity: 0 }}
+      transition={{duration: 2.5}}
+    >
+      <AdviceWrapper>
+        <span className="advice-title">Advice # {text.id}</span>
+        <div className="advice-text">
+          <p>" {text.advice} "</p>
+        </div>
+        <div className="spacement"></div>
 
-      <button onClick={getAdvice}>
-        <img src={LuckyButton} alt="Get your advice" />
-      </button>
-    </AdviceWrapper>
+        <button onClick={getAdvice}>
+          <img src={LuckyButton} alt="Get your advice" />
+        </button>
+      </AdviceWrapper>
+    </motion.div>
   );
 }
 
