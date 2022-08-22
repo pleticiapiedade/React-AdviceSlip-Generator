@@ -105,7 +105,7 @@ const IntroWrapper = styled.div`
   }
 
   @media screen and (max-width: 765px) {
-    width: 100vw;
+    width: 330px;
 
     .open-left,.open-right{
       width: 50%;
@@ -119,17 +119,17 @@ const IntroWrapper = styled.div`
 
     .open-left {
       img {
-        object-position: 0.7rem;
+        object-position: 0.3rem;
       }
     }
 
     .message{
-      left: 4rem;
+      left: 4.5rem;
     }
 
     .open-right {
       img {
-        object-position: -10.5rem;
+        object-position: -10rem;
       }
     }
 
