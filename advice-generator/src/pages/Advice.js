@@ -6,40 +6,34 @@ import LuckyButton from "../assets/images/cookie.svg";
 
 const AdviceWrapper = styled.div`
   position: relative;
-
   background-color: rgba(66,93,120,0.5);
   max-width: 27rem;
   min-width: 22rem;
   min-height: 15rem;
   padding: 2rem;
   border-radius: 5px;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
-
+  
   .advice-title {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
-
     color: #FFD15D;
   }
-
   .advice-text {
     font-size: 1.5rem;
     text-align: center;
   }
-
   .spacement {
     background-color: #1c2541;
     width: 98%;
     height: 1px;
     opacity: .5;
   }
-
   button {
     position: absolute;
     background-color: transparent;
@@ -48,11 +42,8 @@ const AdviceWrapper = styled.div`
     border-radius: 50%;
     border: none;
     bottom: -25px;
-
     cursor: pointer;
-
     transition: transform 0.4s ease-in-out 0s, filter 0.4s ease-in-out 0s;
-
     &:hover {
       transform: rotate(-180deg) scale(1.1);
       filter: saturate(1.1);
@@ -104,10 +95,10 @@ function Advice() {
 
   return (
     <motion.div
-      initial={{ opacity: 0}}
-      animate={{ opacity: 1}}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{duration: 2.5}}
+      transition={{ duration: 2.5 }}
     >
       <AdviceWrapper>
         <span className="advice-title">Advice # {text.id}</span>
