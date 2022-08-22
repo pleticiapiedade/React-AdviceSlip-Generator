@@ -16,6 +16,7 @@ const AdviceWrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  gap: 2rem;
 
   .advice-title {
     font-size: 1rem;
@@ -107,7 +108,7 @@ function Advice() {
       <div className="spacement"></div>
 
       <button onClick={getAdvice}>
-        <img src={LuckyButton} alt="" />
+        <img src={LuckyButton} alt="Get your advice" />
       </button>
     </AdviceWrapper>
   );
