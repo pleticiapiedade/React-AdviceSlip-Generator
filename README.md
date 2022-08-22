@@ -37,4 +37,4 @@ $ yarn start
 ![image](https://user-images.githubusercontent.com/77733535/185982568-5b8b0ab2-5fdc-45dc-80fa-4af373cb42f1.png)
 
 ## Funcionamento
-[Um vídeo com o funcionamento do projeto](https://www.loom.com/share/f7166ff800c5441ba074f54f0a59eb64)
+[Um vídeo com o funcionamento do projeto](https://www.loom.com/share/d4d5bfc724f84852b2ddc60b84122020)
