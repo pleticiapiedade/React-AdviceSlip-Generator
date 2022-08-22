@@ -61,7 +61,7 @@ const AdviceWrapper = styled.div`
     }
   }
 
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 700px){
     max-width: 19rem;
     min-width: 19rem;
     min-height: 20rem;
