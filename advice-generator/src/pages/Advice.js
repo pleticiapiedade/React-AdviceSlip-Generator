@@ -17,38 +17,43 @@ const AdviceWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
-  
+
   .advice-title {
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     color: #FFD15D;
   }
+
   .advice-text {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .spacement {
     background-color: #1c2541;
     width: 98%;
     height: 1px;
     opacity: .5;
   }
+
   button {
     position: absolute;
     background-color: transparent;
     height: 50px;
     width: 50px;
+
     border-radius: 50%;
     border: none;
     bottom: -25px;
     cursor: pointer;
+
     transition: transform 0.4s ease-in-out 0s, filter 0.4s ease-in-out 0s;
+
     &:hover {
       transform: rotate(-180deg) scale(1.1);
       filter: saturate(1.1);
       transition: transform 0.4s ease-in-out 0s, filter 0.4s ease-in-out 0s;
-      tra
     }
   }
 
