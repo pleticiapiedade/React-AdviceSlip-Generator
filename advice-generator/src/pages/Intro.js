@@ -13,6 +13,7 @@ const IntroWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
     .open-right,
     .open-left {
       width: 216px;

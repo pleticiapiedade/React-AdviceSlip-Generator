@@ -17,6 +17,7 @@ const AdviceWrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
+  
   .advice-title {
     font-size: 1rem;
     font-weight: 600;
