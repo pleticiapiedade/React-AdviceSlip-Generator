@@ -7,11 +7,14 @@ import LuckyButton from "../assets/images/cookie.svg";
 const AdviceWrapper = styled.div`
   position: relative;
   background-color: rgba(66,93,120,0.5);
+
   max-width: 27rem;
   min-width: 22rem;
   min-height: 15rem;
   padding: 2rem;
+
   border-radius: 5px;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
